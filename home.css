@@ -141,6 +141,25 @@
 .next h1{
     height: 25px;
 }
+.luxury{
+    height: 1200px;
+    background-color: rgb(20, 20, 20);
+    margin-top: 4px;
+}
+.seconddiv{
+    padding-top: 100px;
+}
+#tv{
+    height: 570px;
+    width: 410px;
+    position: relative;
+}
+#sit{
+    position: absolute;
+    padding-right: 400px;
+    padding-top: 240px;
+    z-index: 1;
+}
 
 
 
