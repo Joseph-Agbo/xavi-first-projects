@@ -1,0 +1,457 @@
+.learnone{
+    font-size: 50px;
+    font-style: oblique;
+    text-align: center;
+}
+.firstdiv{
+    background-color: maroon;
+    color: #ffffff;
+    background-image: url("./images/learningdog.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.seconddiv{
+    border-top: solid;
+    border-color: chocolate;
+    border-width: 10px;
+    border-radius: 20px;
+    border:5px solid chocolate;
+    margin: 10px;
+    padding: 20px;
+    height: 100vh;
+    width: 70%;
+}
+.face{
+    color: purple;
+    background-color: red;
+    padding: 5px, 10px;
+}
+.face:visited{
+    color: white;
+    background-color: blue;
+}
+.face:hover{
+    color: aqua;
+    background-color: brown;
+    cursor: grab;
+}
+.face:active{
+    color:blue;
+    background-color: black;
+    cursor: grab;
+}
+
+.fruits{
+    border-collapse: collapse;
+    width: 50%;
+    height: 100px;
+}
+.fruits th{
+    border: 2px solid black;
+}
+.fruits th{
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+.fruits td{
+    height: 30px;
+    border-right: 2px solid black;
+}
+.fruits tr:nth-child(even){
+    background-color: gray;
+}
+.yourlink{
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+.twtthirddiv{
+    border: 2px solid black;
+    margin: auto;
+    max-width: 500px;
+}
+.twtthirddiv div{
+    border: 2px solid black;
+    padding: 20px;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 50px;
+}
+.relativediv{
+    border: 2px solid black;
+    margin: 20px auto;
+    max-width: 500px;
+}
+.absolutediv{
+    border: 2px solid black;
+    padding: 20px;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.stickydiv{
+    border: 2px solid black;
+    padding: 20px;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    bottom: 0;
+}
+.float{
+    border: 2px solid black;
+    /* overflow: auto; */
+}
+.float img{
+    float: left;
+}
+.float p{
+    clear: left;
+}
+.navbar{
+    color: white;
+    list-style-type: none;
+    background-color: black;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+.navbar li{
+    display: inline-block;
+    padding-left: 120px;
+}
+.navbar li a{
+    color: blueviolet;
+}
+.child{
+    background-color: black;
+    color: white;
+}
+.child>p{
+    color: yellow;
+}
+.child~p{
+    background-color: blue;
+}
+.doubledeck{
+    border: 1px solid black;
+    background-color: green;
+    display: none;
+}
+.comenice:hover .doubledeck{
+    display: block;
+}
+.loginform{
+    background-color: rgb(34,34,34);
+    width: 30%;
+    margin: 30px auto;
+    color: white;
+    padding: 50px 30px;
+    text-align: center;
+    border-radius: 30px;
+}
+.loginform p{
+    color: gray;
+}
+.loginforminput input{
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: black;
+    border: 1px solid gray;
+}
+.loginforminput button{
+    width: 86%;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(26,97,196);
+    border: 1px solid gray;
+    color: white;
+    font-size: 15px;
+}
+.socialmedia i{
+    width: 25%;
+    background-color: rgb(50,50,50);
+    padding: 10px;
+    border-radius: 5px;
+}
+.left{
+    float: left;
+    background-color: yellow;
+    width: 20%;
+    padding: 50px 0px;
+}
+.middle{
+    float: left;
+    background-color: aqua;
+    width: 60%;
+    padding: 50px 0px;
+}
+.right{
+    float: left;
+    background-color: blue;
+    width: 20%;
+    padding: 50px 0px;
+}
+@media screen and (max-width: 768px) {
+    .left, .middle, .right{
+        width: 100%;
+    }
+}
+.shadow{
+    width: 20%;
+    background-color: aquamarine;
+    padding: 15px;
+    height: 60px;
+    box-shadow: 10px 10px 5px gray;
+}
+.flexcontainer{
+    background-color: rgb(48, 91, 191);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 300px;
+    align-items: flex-start;
+}
+.flexcontainer div{
+    background-color: rgb(255, 157, 0);
+    padding: 20px;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+}
+.homework{
+    background-color: darkblue;
+    padding: 10px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.homework div{
+    background-color: deepskyblue;
+    padding: 20px;
+    width: 50px;
+    height: 20px;
+    margin: 10px;
+}
+.firstcon{
+    border: 1px solid black;
+    background-color: gray;
+}
+.headerdiv{
+    display: flex;
+    justify-content: space-around;
+    background-color: cornflowerblue;
+    padding: 20px;
+    border: 2px solid black;
+}
+.firstnav{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+.bodydiv{
+    border: 2px solid yellow;
+    display: flex;
+}
+.bodyimages{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bodyimages img{
+    width: 50% ;
+    height: 200px;
+}
+.textdiv{
+    width: 40%;
+}
+.gridcontainer{
+    display: grid;
+    background-color: blue;
+    /* grid-template-columns: auto auto auto auto auto auto;  */
+    /* justify-content: space-evenly;
+    align-content: space-evenly;
+    height: 700px; */
+    grid-template-areas: 'areaone areaone . . . . ';
+}
+.grid-item{
+    /* height: 50px; */
+    background-color: aqua;
+    margin: 10px;
+}
+.item8{
+    /* grid-area: 1/2/4/6; */
+}
+.gridcon{
+    border: 3px solid rgb(255, 127, 180);
+    background-color: rgb(230, 200, 200);
+}
+.mygrid{
+    display: grid;
+    background-color: rgb(232, 170, 150);
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    padding: 20px;  
+}
+.secondgrid{
+    display: grid;
+    justify-content: end;
+}
+.gridbody{
+    display: grid;
+    border: 3px solid rgb(253, 220, 180);
+    grid-template-columns: auto auto;
+}
+.gridimage{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.gridimage img{
+    width: 300px;
+    height: 250px;
+}
+.item1{
+    grid-area: areaone;
+}
+.ggradient{
+    background: linear-gradient(to right, red, rgb(228, 255, 53));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.ggradient p{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.css{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.css p{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.replicadiv{
+   display: flex;
+   justify-content: flex-start;
+   color: white;
+   padding: 7px;
+   background: linear-gradient(rgb(19, 19, 19), rgb(78, 75, 75));
+}
+.replicadiv div{
+    margin: 5px;
+}
+.darkblue{
+    background: linear-gradient(to bottom right, rgb(161, 161, 217), rgb(59, 59, 112));
+}
+.loremreply{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    padding-left: 150px; 
+}
+.loremreply p{
+    margin: 5px;
+    padding: 13px;
+}
+.waterfallimages{
+    padding: 12px;
+}
+.waterfall{
+    display: flex;
+    width: 53%;
+    padding-left: 145px;
+}
+.waterfall img,p{
+    margin: 12px;
+}
+.animationdivv{
+    height: 200px;
+    animation-name: changeanim;
+    animation-duration: 5s;
+    border: 1px solid black;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: ease;
+}
+@keyframes changeanim{
+    0%{
+        width: 100px;
+        height: 200px;
+        background-color: red;
+    }
+    25%{
+        width: 200px;
+        height: 100px;
+        background-color: chocolate;
+    }
+    50%{
+        background: linear-gradient(to bottom right, blue, white);
+        width: 50%;
+        height: 200px;
+    }
+    100%{
+        background-color: white;
+        width: 200px;
+        height: 100px;
+        transform: rotate(90deg);
+    }
+}
+.workdiv{
+    background-color: brown;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 500px;
+    animation-name: workdiv;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    position: absolute;
+    animation-fill-mode: forwards;
+}
+@keyframes workdiv{
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 100%;
+    }
+    100%{
+        left: 50%;
+    }
+}
+
+
+
+
+
+
+

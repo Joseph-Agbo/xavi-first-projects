@@ -1,0 +1,148 @@
+.aveon{
+    background: url("images/AVN21.jpg") no-repeat center fixed ;
+    background-size: cover;
+    height: 600px;
+}
+.aveheader{
+    display: flex;
+    justify-content: space-around;
+}
+.telephone{
+    display: flex;
+    font-size: 14px;
+}
+.telephone p{
+    padding: 9px;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.plot p{
+    padding: 9px;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.home{
+    text-underline-offset: 8px;
+    /* color: white; */
+}
+.home a{
+    color: white;
+}
+.roomdrop a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.roomdrop{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    min-width: 160px;
+    padding: 10px;
+}
+.rooms:hover .roomdrop{
+    display: block;
+    background-color: black;
+}
+.roomlink{
+    color: white;
+    text-decoration: none;
+}
+.rooms:hover .roomlink{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+.roomdrop a:hover{
+    color: rgb(206, 180, 115);
+}
+.exploredrop{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    min-width: 160px;
+    background-color: black;
+    padding: 10px;
+    height: 80px;
+}
+.exploredrop a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.explore:hover .exploredrop{
+    display: block;
+    padding-top: 15px;
+}
+.explorelink{
+    color: white;
+    text-decoration: none;
+}
+.explore:hover .explorelink{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+.exploredrop a:hover{
+    color: rgb(206, 180, 115);
+}
+.contact:hover{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+.contact{
+    color: white;
+}
+.contact a{
+    color: white;
+    text-decoration: none;
+}
+.avebar{
+    display: flex;
+    justify-content: space-around;
+}
+.check{
+    border: 1px solid rgb(206, 180, 115);;
+    height: 40px;
+    width: 160px;
+    display: grid;
+    place-content: center;
+    margin-top: 15px;
+}
+.check a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.check:hover{
+    background-color: rgb(201, 175, 108);
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin-left: 25px;
+}
+.navbar div{
+    padding: 15px;
+}
+.welcome{
+    display: grid;
+    place-content: center;
+    color: rgb(255, 221, 134);;
+}
+.next{
+    display: grid;
+    place-content: center;
+    color: white;
+    text-align: center;
+    height: 200px;
+}
+.next h1{
+    height: 25px;
+}
+
+
+
+
+

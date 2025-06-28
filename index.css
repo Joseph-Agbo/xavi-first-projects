@@ -1,0 +1,518 @@
+h3{
+            /* color:brown;
+            font-size: 50px; */
+            
+        }
+        #joe{
+            font-size: medium;
+            font-weight: bolder;
+            text-align: center;
+        }
+        #web{
+            text-align: right;
+            color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .italictext{
+            color: deeppink;
+            font-style: italic;
+            font-size: larger;
+        }
+
+        .link span a{
+            margin-left: 100px;
+            
+        }
+        .center{
+            margin: auto;
+            width: 30%;
+        }
+        .centerme{
+            margin: auto;
+            width: 400px;
+            font-size: 15px;
+        }
+        img{
+            margin-left: 300px ;
+            width: 50%;
+        }
+        .button p{
+            border: 1px solid black;
+            border-radius: 10px;
+            width: 145px;
+            padding-left: 8px;
+        }
+        .button h2{
+            margin-left: 360px;
+        }
+        .chika {
+            border: 2px dotted red;
+        }
+        .chika tr td{
+            border: 2px solid black;
+        }
+        .chika th{
+            border: 2px dashed blueviolet;
+        }
+        .cray{
+            line-height: 0;
+        }
+        .header{
+            border: 2px dashed coral;
+            width: 60px;
+            background-color: violet;
+            color: wheat;
+            height:30px;
+            margin: auto;
+        }
+       
+        .href a:hover{
+            color: dodgerblue;
+            font-size: 20px;
+        }
+        .mouse{
+            
+            color: black;
+            width: 35%;
+            margin: auto;
+            height: 50px;
+            padding: 40px;
+            text-align: center;
+            font-size: larger;
+        }
+        .mouse:hover p{
+            background-color: dodgerblue;
+            display: block;
+        }
+        .fchild p:first-child{
+            background-color: dodgerblue;
+        }
+        .done p i:first-child{
+            color: blue;
+        }
+        .fline::first-letter{
+            color: darkmagenta;
+            font-size: xx-large;
+        }
+        .fline::first-line{
+            color: dodgerblue;
+        }
+        .head::after{
+            content: url(smiley.jpeg);
+        }
+
+        .login{
+            border: 2px solid black;
+            border-radius: 10px;
+            padding-top: 7px;
+            background-color: dodgerblue;
+            width: 60%;
+            margin: auto;
+        }
+        .hlink{
+            background-color: gray;
+            border: 2px solid gray;
+            font-size: xx-large;
+            padding: 10px;
+            margin: 50px;
+        }
+        .wel{
+            width: 60px;
+        }
+        .oneman{
+            margin: auto;
+            width: 50%;
+            text-align: center;
+            background-color: black;
+            height: 500px;
+            border-radius: 10px;
+        }
+        #welcome {
+            width: 7%;
+            height: 40px;
+            padding-right: 270px; 
+        }
+        .or{
+            color: white;
+            font-size: 10px;
+        }
+        .born{
+            color: gray;
+        }
+        .born .back{
+            color: white;
+        }
+        .born p span a{
+            color: white;
+            text-decoration: none;
+        }
+        .wave{
+            margin-right: 300px;
+            margin-left: 200px;
+            padding-top: 35px;
+            padding-right: 35px;
+            padding-bottom: 30px;
+            opacity: 0.3;
+        }
+        .ole{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .ole li a{
+            display: block;
+            width: 200px;
+            background-color: grey;
+            padding: 8px 16px;
+            color: black;
+            text-decoration: none;
+            text-align: center;
+            border-bottom: 1px solid black;
+            border: 1px solid black;
+        }
+        .ole li a:hover{
+            background-color: black;
+            color: white;
+        }
+        #hactive{
+            background-color: green;
+            color: white;
+        }
+        .uloma{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: auto;
+            background-color: gray;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        .uloma li{
+            float: left;
+            border-right: 1px solid black;   
+        }
+        .uloma li a{
+            display: block;
+            padding: 10px;
+            background-color: gray;
+        }
+        #ohome{
+            background-color: green;
+            color: white;
+        }
+        li:last-child{
+            border-right: none;
+        }
+        #divref{
+            display: none;
+        }
+        #linkb:hover #divref{
+            display: block;
+        }
+        .ubutton{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .ubutton li{
+            float: left;
+        }
+        .ubutton .buttondiv{
+            display: block;
+        }
+        .targ[target="_blank"] {
+            background-color: yellowgreen;
+        }
+        .upguardform{
+            width: 35%;
+            margin: 5px auto;
+            outline: none;
+        }
+        .upguardforminput #label{
+            font-size: 15px;
+        }
+        .upguardforminput #input{
+            padding: 7px;
+            width: 80%;
+            border: 1px solid rgb(33, 128, 139);
+            border-radius: 7px;
+        }
+        .upguardforminput #emailinput{
+            padding: 7px;
+            width: 80%;
+            border-radius: 7px;
+            border: 1px solid rgba(200, 194, 194, 0.555)
+        }
+        .upguardforminput #continue{
+            width: 83%;
+            padding: 7px;
+            border: 1px solid black;
+            color: white;
+            background-color: rgb(6, 86, 165);
+            border-radius: 7px;
+        }
+        .upguardforminput #input:hover{
+            background-color: rgba(236, 229, 229, 0.943);
+            outline-color:  aqua;
+        }
+         .upguardforminput #emailinput:hover{
+            background-color: rgba(236, 229, 229, 0.943);
+            outline-color: aqua;
+         }
+         .upguardform h1 img{
+            position: absolute;
+            left: 0;
+            padding-left: 110px;
+         }
+         .upguardform h1{
+            padding-left: 30px;
+         }
+         .miralodiv{
+            width: 50%;
+            margin: auto;
+         }
+         .miralodiv .miraloform #input{
+            width: 50%;
+            padding: 5px;
+            float: right;
+         }
+         .meediv{
+            border: 1px solid green;
+            width: 20%;
+            border-radius: 50px/15px;
+            padding: 70px;
+         }
+         .dotcoin{
+            border: 10px solid transparent;
+            padding: 15px;
+            border-image: url(ai.jpeg) 30% round;
+         }
+         .lorem{
+            background-image: url(cat.jpeg) , url(ai.jpeg);
+            background-position: bottom right, left top;
+            background-repeat: no-repeat, repeat;
+            padding: 50px;
+            width: 30%;
+            height: 180px;
+            background-size: 80px, 80px;
+         }
+         .hire{
+            background: url(cat.jpeg) no-repeat center;
+            background-size: cover;
+            position: relative;
+            height: 450px;
+            width: 40%;
+            float: right;
+         }
+         .hireme{
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+         }
+         #grad{
+            background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+            border: 2px solid white;
+            width: 50%;
+            height: 150px;
+         }
+         .shadow{
+            text-shadow: 2px 2px 5px red;
+         }
+         .boxshadow{
+            box-shadow: 10px 10px 5px 12px inset;
+            background-color: red;
+            width: 50%;
+            height: 150px;
+            padding: 15px;
+         }
+         .text{
+            width: 100px;
+            height: 100px;
+            border: 1px solid wheat;
+            transition: width 2s;
+            background-color: brown;
+         }
+         .text:hover{
+            width: 300px;
+         }
+         .animation{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            animation-name: example;
+            animation-duration: 5s;
+         }
+         @keyframes example {
+            from {background-color: red;}
+            to {background-color: green;}
+         }
+         .gridcontainer{
+            display: grid;
+            background-color: orange;
+            padding: 20px;
+            grid-template-columns: auto auto auto;
+            height: 150px;
+            
+         }
+         .gridcontainer div{
+            background-color: fuchsia;
+            padding: 5px;
+            width: 100px;
+            height: 25px;
+        }
+        .classwork{
+            background-color: rgb(69, 69, 203);
+            display: flex;
+            flex-direction: row;
+        }
+        .classwork div{
+            background-color: rgb(134, 154, 161);
+            width: 80px;
+            height: 70px;
+            padding: 3px;
+            margin: 10px;
+            text-align: center;
+        }
+        .imagecontain{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            flex-direction: row;
+            max-height: 100vh;
+            background-color:  rgb(42, 125, 42);
+            border: 2px solid rgb(143, 235, 143);
+        }
+        .imagecontain img{
+            margin: 10px;
+            box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+            max-width: 20vw;
+        }
+         /* .secondimage{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            flex-direction: row;
+            max-height: 100vh;
+            background-color: rgb(42, 125, 42);
+        }
+        .secondimage img{
+            margin: 10px;
+            box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+            max-width: 20vw;
+            border: 2px solid black;
+        } */
+        .flexformdiv{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid goldenrod;
+            margin-left:  440px;
+            margin-right: 440px;
+            border-radius: 12px;
+            background-color: aliceblue;
+            height: 320px;
+        }
+        #flexinput{
+            padding: 7px;
+            width: 250px;
+            margin: 7px;
+            background-color: rgb(162, 222, 202);
+            border: 1px solid rgb(161, 238, 240);
+            border-radius: 5px;
+        }
+        #flexlog{
+            border: 1px solid cyan;
+            background-color: cadetblue;
+            width: 300px;
+            padding: 7px;
+            border-radius: 7px;
+            text-align: center;
+            margin-left: 20px;
+        }
+        #flexlog a{
+            text-decoration: none;
+            color: beige;
+            cursor: alias;
+        }
+        ::placeholder{
+            color: darkblue;
+            font-family: monospace;
+            font-size: 11px;
+        }
+        .bizdiv{
+            border: 1px solid black;
+            height: 500px;
+            background: linear-gradient(to bottom right, powderblue, rosybrown, gray, mediumspringgreen);
+        }
+        .nairadiv{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: rgb(85, 134, 135);
+        }
+        .coindiv a{
+            margin: 40px;
+            padding: 15px;
+            text-underline-offset: 7px;
+            color: whitesmoke;
+        }
+        .pounds a{
+            margin: 30px;
+            padding: 10px;
+            text-underline-offset: 7px;
+            color: antiquewhite;
+        }
+        .body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 5px;
+        }
+        .osaka{
+            height: 200px;
+            background-color: slategray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 60px;
+        }
+        
+
+    
+        
+
+
+
+
+
+        
+
+        
+        
+        
+       
+
+
+        
+        
+         
+          
+          
+          
+          
+          
+        
+        
+        
+        
+        
+
+
+
+       
