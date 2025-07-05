@@ -482,6 +482,16 @@ h3{
             color: white;
             font-size: 60px;
         }
+        .backcolor{
+            background-color: rgb(85, 94, 79);
+            height: 200px;
+        }
+        .joecol, th, td{
+            border: 1px solid white;
+            border-collapse: collapse;
+        }
+       
+        
         
 
     

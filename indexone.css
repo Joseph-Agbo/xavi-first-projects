@@ -448,6 +448,79 @@
         left: 50%;
     }
 }
+.firstsection{
+    background-color: rgb(66, 143, 209);
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.bg-video{
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+.fs-header{
+    display: flex;
+    justify-content: space-around;
+    z-index: 2;
+    position: relative;
+    margin: 20px 0;
+    color: white;
+}
+.fs-navdiv{
+    display: flex;
+    align-items: center;
+}
+.fs-navdiv p{
+    margin: 0px 10px;
+}
+.dellogo{
+    height: 60px;
+}
+.fs-book{
+    display: flex;
+    align-items: center;
+}
+.fs-book button{
+    padding: 30px;
+    background-color: chocolate;
+    color: white;
+    border: none;
+}
+.secondsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.secdiv1{
+    width: 90%;
+    height: 200px;
+    background-color: yellowgreen;
+}
+.secdiv2{
+    width: 90%;
+    height: 200px;
+    background-color: brown;
+}
+
+@media screen and (min-width: 768px){
+    .secondsection{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .secdiv1{
+        width: 50%;
+        height: 200px;
+        background-color: yellowgreen;
+    }
+    .secdiv2{
+        width: 50%;
+        height: 200px;
+        background-color: brown;
+    }
+}
 
 
 

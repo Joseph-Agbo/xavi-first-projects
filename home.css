@@ -1,7 +1,6 @@
 .aveon{
     background: url("images/AVN21.jpg") no-repeat center fixed ;
-    background-size: cover;
-    height: 600px;
+    background-size: 100vw 135vh;
 }
 .aveheader{
     display: flex;
@@ -23,9 +22,12 @@
     font-size: 14px;
     font-weight: bolder;
 }
+.ifont{
+    margin-left: 110px;
+    margin-top: 50px;
+}
 .home{
     text-underline-offset: 8px;
-    /* color: white; */
 }
 .home a{
     color: white;
@@ -129,7 +131,7 @@
 .welcome{
     display: grid;
     place-content: center;
-    color: rgb(255, 221, 134);;
+    color: rgb(255, 208, 89);
 }
 .next{
     display: grid;
@@ -142,24 +144,312 @@
     height: 25px;
 }
 .luxury{
-    height: 1200px;
+    height: 1800px;
     background-color: rgb(20, 20, 20);
     margin-top: 4px;
 }
 .seconddiv{
-    padding-top: 100px;
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -50px;
+}
+.secondimage{
+    position: relative;
 }
 #tv{
-    height: 570px;
+    height: 565px;
     width: 410px;
     position: relative;
 }
 #sit{
     position: absolute;
-    padding-right: 400px;
+    left: 255px;
     padding-top: 240px;
     z-index: 1;
 }
+.secondtext{
+    color: white;
+    margin-right: -50px;
+    margin-top: 55px;
+}
+.startlink{
+    border: 1px solid rgb(206, 180, 115);
+    width: 200px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    margin-top: -5px;
+}
+.startlink a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+.startlink:hover{
+    background-color: rgb(183, 153, 77);
+}
+#fletter::first-letter{
+    font-size: 60px;
+}
+#lol::first-letter{
+    font-size: 22px;
+}
+#lol{
+    margin-top: -33px;
+}
+.pdiv{
+    color: white;
+    margin-top: 250px;
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+.standard{
+    color: white;
+}
+.standard a{
+    color: white;
+    text-underline-offset: 7px;
+    text-decoration-color: rgb(164, 138, 71);
+}
+.standard a:hover{
+    text-decoration: none;
+}
+.deluxe{
+    color: white;
+}
+.deluxe a{
+    color: white;
+    text-underline-offset: 7px;
+    text-decoration-color: rgb(164, 138, 71);
+}
+.deluxe a:hover{
+    text-decoration: none;
+}
+.executive{
+    color: white;
+}
+.executive a{
+    color: white;
+    text-underline-offset: 7px;
+    text-decoration-color: rgb(164, 138, 71);
+}
+.executive a:hover{
+    text-decoration: none;
+}
+.roomtypes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bon{
+    height: 1500px;
+    background-color: rgb(81, 97, 75);
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+}
+#vacation{
+    color: rgb(176, 151, 87);
+}
+.learn{
+    border: 1px solid rgb(171, 145, 82);
+    width: 170px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+}
+#more{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+.learn:hover{
+    background-color: rgb(177, 148, 73);
+}
+.apeti{
+    display: flex;
+    justify-content: space-around;
+}
+.bonimage{
+    position: relative;
+    left: -57px;
+    bottom: 55px;
+}
+.bontext{
+    margin-top: 120px;
+    left: -50px;
+    position: relative;
+}
+.panfoods{
+    height: 1500px;
+    z-index: 1;
+    position: absolute;
+    background-color: rgb(20, 19, 19);
+    margin-top: 929px;
+    width: 100%;
+}
+.frydiv{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 35px;
+}
+.fryimg {
+    margin-top: -245px;
+}
+.dina{
+    border: 1px solid rgb(172, 146, 82);
+    width: 26%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+}
+.dina:hover{
+    background-color:rgb(153, 128, 63) ;
+}
+.roof{
+    border: 1px solid rgb(172, 146, 82);
+    width: 24%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+}
+.roof:hover{
+    background-color:rgb(153, 128, 63) ;
+}
+.fourdiv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 35px;
+}
+.wellness{
+    padding-left: 80px;
+    padding-top: 66px;
+    background-color: black;
+    height: 350px;
+    margin-right:36px ;
+}
+.dinner{
+    padding-left: 55px;
+    padding-top:70px ;
+    background-color: black;
+    height: 448px;
+}
+.guest{
+    height: 700px;
+    position:relative;
+    z-index: 1;
+    margin-top: 2338px;
+}
+.star{
+    height: 1230px;
+    width: 100%;
+    background-color: rgb(19, 18, 18);
+    margin-top: -17px;
+}
+.starimage{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    z-index: 1;
+    margin-left: 200px;
+    height: 500px;
+    overflow: hidden;
+    margin-top: -245px ;
+}
+.coversecdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 330px;
+}
+#white{
+    color: white;
+    font-size: 55px;
+    word-spacing: 1px;
+    margin-top: -4px;
+}
+.threediv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3px;
+}
+.firstree, .sectree, .lastree{
+    border: 1px solid rgb(172, 146, 82);
+} 
+.sectree{
+    margin-top: 52px;
+} 
+.firstree{
+    margin-top: 53px;
+    bottom: 53px;
+    position: relative;
+}
+.hoverdis:hover a{
+    text-decoration: none;
+}
+.black{
+    height: 1250px;
+    background-color: black;
+    margin-top: -16px;
+}
+.twodiv{
+    display: flex;
+    justify-content: space-between;
+}
+.firstdirect{
+    position: relative;
+}
+.directdiv{
+    position: absolute;
+    z-index: 1;
+    bottom: 120px;
+    left: 120px;
+    text-align: center;
+}
+.secondirect{
+    position: relative;
+}
+.reservediv{
+    position: absolute;
+    z-index: 1;
+    bottom: 120px;
+    left: 105px;
+    text-align: center;
+}
+.getlink{
+    border: 1px solid rgb(172, 146, 82);
+    width: 34%;
+    height: 30px;
+    padding-top: 10px;
+    margin-left: 125px;
+    margin-top: 35px;
+}
+.getlink:hover{
+    background-color:rgb(172, 146, 82) ;
+}
+.reservelink{
+    border: 1px solid rgb(172, 146, 82);
+    width: 34%;
+    height: 30px;
+    padding-top: 10px;
+    margin-left: 140px;
+    margin-top: 35px;
+}
+.reservelink:hover{
+    background-color:rgb(172, 146, 82) ;
+}
+
+
+
+
+
 
 
 
