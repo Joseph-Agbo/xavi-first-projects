@@ -488,6 +488,25 @@
     color: white;
     border: none;
 }
+
+@media screen and (max-width: 768px) {
+    .fs-header{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .fs-navdiv{
+        flex-direction: column;
+    }
+    .fs-navdiv p{
+        margin: 10px 0px;
+    }
+    .fs-book{
+        display: flex;
+        justify-content: center;
+    }
+}
+
 .secondsection{
     display: flex;
     flex-direction: column;
@@ -521,6 +540,67 @@
         background-color: brown;
     }
 }
+.scr{
+    height: 200px;
+    width: 100%;
+}
+.scr1{
+    background-color: aqua;
+}
+.scr2{
+    background-color: purple;
+}
+.scr3{
+    background-color: peru;
+}
+.scr4{
+    background-color: teal;
+}
+/* tablet */
+@media (min-width: 430px) and (max-width: 768px) {
+    .screendiv{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .scr{
+        width: 50%;
+    }
+    .scr1{
+        background-color: chocolate;
+    }
+    .scr2{
+        background-color: black;
+    }
+    .scr3{
+        background-color: yellow;
+    }
+    .scr4{
+        background-color: steelblue;
+    }
+}
+/* desktop */
+@media (min-width: 768px){
+    .screendiv{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .scr{
+        width: 25%;
+    }
+    .scr1{
+        background-color: blue;
+    }
+    .scr2{
+        background-color: tomato;
+    }
+    .scr3{
+        background-color: rosybrown;
+    }
+    .scr4{
+        background-color: palevioletred;
+    }
+}
+
 
 
 

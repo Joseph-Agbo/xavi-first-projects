@@ -395,7 +395,7 @@
     text-decoration: none;
 }
 .black{
-    height: 1250px;
+    height: 1065px;
     background-color: black;
     margin-top: -16px;
 }
@@ -444,6 +444,29 @@
 }
 .reservelink:hover{
     background-color:rgb(172, 146, 82) ;
+}
+#span{
+    margin: 15px;
+    cursor: pointer;
+    font-size: 12px;
+}
+#span:hover{
+    color: rgb(162, 135, 65);
+}
+.fonts span{
+        margin: 4px;
+}
+@media screen and (max-width: 768px) {
+    .aveon{
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+* img{
+    max-width: 100%;
+    height: auto;
 }
 
 
