@@ -160,9 +160,254 @@ let nkechi = {
 if (nkechi.accountbal > 1000000 || nkechi.car == true) {
     console.log("first class citizen");
 }else if (nkechi.accountbal > 100000 || nkechi.car == false) {
-    console.log("You dey try")
+    console.log("You dey try");
 }
-// learn switch statements
+
+
+// For Loop & While Loop
+
+// print from numbers 1 to 20
+for (let i = 1; i <= 20; i++) {
+    console.log(i);   
+}
+for (let i = 20; i >= 1; i--) {
+    console.log(i);
+}
+
+// for (let i = 0; i < restaurants.length; i++) {
+//     console.log(restaurants[i]);
+// }
+for (let i = restaurants.length - 1 ; i >= 0; i--) {
+    console.log(restaurants[i]);
+    
+}
+
+for (let i = 2; i <= 40; i++){
+    if (i % 2 === 0) {
+        console.log(i);
+    } 
+}
+
+for (let i = 1; i <= 20; i++){
+    console.log(i);
+}
+// Multiplication Table
+for (let i = 1; i < 13; i++){
+    console.log(`2 x ${i} = ${ 2* i}`);
+    // console.log("2*"+ i + "="+ 2*i);
+     
+}
+
+// Fizz buzz
+
+let fizzbuzzcount = 0;
+let fizzcount = 0;
+let buzzcount = 0;
+let icount = 0;
+
+for (let i = 0; i <= 100; i++) {
+     if (i % 3 === 0 && i % 5 === 0) {
+        console.log("fizz buzz");
+        fizzbuzzcount++;
+    }else if ( i % 3 == 0) {
+        console.log("fizz");
+        fizzcount++;
+    }else if (i % 5 == 0) {
+        console.log("buzz");
+        buzzcount++;
+    }else {
+        console.log(i);
+        icount++;
+    }
+ 
+}
+console.log(fizzbuzzcount);
+console.log(fizzcount);
+console.log(buzzcount);
+console.log(icount);
+
+let day;
+switch (new Date() . getDay()) {
+    case 0:
+        day = "Sunday";
+        break;
+    case 1:
+        day = "Monday";
+        break;
+    case 2:
+        day = "Tuesday";
+        break;
+    case 3:
+        day = "Wednesday";
+        break;
+    case 4:
+        day = "Thursday";
+        break;
+    case 5:
+        day = "Friday";
+        break;
+    case 6:
+        day = "Saturday";
+        break;                          
+
+}
+console.log(day)
+let numarray = [100, 20, 10, 5, 7, 2, 90 ]
+
+let total = 0
+let average = 0
+let largest = numarray[0]
+let smallest = numarray[0]
+for (let i = 0; i < numarray.length; i++) {
+    total = total + numarray[i]
+    average = total / numarray.length
+    if (numarray[i] > largest) {
+        largest = numarray[i]
+    }
+    if (numarray[i] < smallest) {
+        smallest = numarray[i]
+    }
+
+}
+console.log(total);
+console.log(average);
+console.log(largest);
+console.log(smallest);
+
+// Nested for Loop
+for (let i = 5; i <= 10; i++) {
+    for (let j = 1; j <= 12; j++){
+        console.log(`${i} x ${j} = ${i*j}`);
+        
+    }
+    
+}
+
+let checknumbers = [1,4,2,8,5,9,43,7,3,6,34,7,4,45,148,7,25,48,84,8,71,94,25]
+let evencounter = 0
+let secondcheck = []
+let reversedArray = []
+
+for (let i = 0; i <= checknumbers.length; i++){
+    if (checknumbers[i] % 2 === 0) {
+        console.log(checknumbers[i]);
+        evencounter++;
+        secondcheck.push(checknumbers[i])
+    } 
+    
+}
+console.log(evencounter);
+
+for (let i = checknumbers.length - 1 ; i >= 0; i--) {
+    console.log(checknumbers[i]);
+    
+}
+
+console.log(secondcheck);
+
+for (let i = secondcheck.length - 1 ; i >= 0; i--) {
+    console.log(secondcheck[i]);
+    
+}
+console.log(secondcheck.reverse());
+
+for (let i = checknumbers.length - 1; i >= 0; i--){
+    reversedArray.push(checknumbers[i]) 
+
+}
+console.log(reversedArray);
+
+// vowels
+let mystring = "Hello World"
+let englishVowels = ["a","e","i","o","u","A","E","I","O","U"]
+let countvowel = 0
+
+for (let i = 0; i < mystring.length; i++) {
+    for (let j = 0; j < englishVowels.length; j++) {
+        if (mystring[i] === englishVowels[j]) {
+            countvowel++;
+        }
+        
+    }
+    
+}
+console.log(countvowel);
+
+// // prime numbers
+// let primenumbers = []
+
+// for (let i = 1; i <= 100; i++) {
+//     let isPrime = true
+//     for (let j = 0; j < array.length; j++) {
+        
+        
+//     }
+    
+// }
+
+// While Loop
+let i = 1
+
+while (i <= 100) {
+    console.log(i);
+    
+    i++
+}
+
+let a = 1
+
+while (a < 13) {
+    console.log(`2 x ${a} = ${ 2* a}`);
+ 
+    a++
+}
+
+let c = 0
+let fizzbuzzcanter = 0;
+let fizzcanter = 0;
+let buzzcanter = 0;
+let icanter = 0;
+
+while (c <= 100) {
+    if (c % 3 === 0 && c % 5 === 0) {
+        console.log("fizz buzz");
+        fizzbuzzcanter++;
+    }else if ( c % 3 == 0) {
+        console.log("fizz");
+        fizzcanter++;
+    }else if (c % 5 == 0) {
+        console.log("buzz");
+        buzzcanter++;
+    }else {
+        console.log(c);
+        icanter++;
+    }
+
+    c++
+}
+console.log(fizzbuzzcanter);
+console.log(fizzcanter);
+console.log(buzzcanter);
+console.log(icanter);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

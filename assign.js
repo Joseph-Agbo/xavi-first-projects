@@ -74,3 +74,59 @@ console.log(and);
 
 let or = true || false
 console.log(or);
+
+// for Loop
+
+let numbers = [95, 0, 35, 5, 77, 66, 43, 32, 2, 1]
+
+let plus = 0
+for (let i = 0; i < numbers.length; i++) {
+    plus += numbers[i]
+    
+}
+console.log(plus);
+
+// count vowels in a string
+let string = "My Precious"
+let vowels = "aeiouAEIOU"
+let stringCount = 0
+
+for (let i = 0; i < string.length; i++) {
+    if (vowels.includes(string[i])) {
+        stringCount++;
+    }
+    
+}
+console.log(stringCount);
+
+// prime numbers
+for (let num = 2; num <= 100; num++) {
+    let isPrime = true
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+        if (num % i === 0) {
+            isPrime = false
+            break;
+        }
+        
+    }
+    if (isPrime) {
+        console.log(num);
+        
+    }
+}
+
+// Pyramid Pattern
+let rows = 5;
+
+for (let i = 1; i <= rows; i++) {
+    let spaces = " ".repeat(rows - i);
+    let stars = "*".repeat(2 * i - 1);
+    console.log(spaces + stars);
+    
+}
+
+// While Loop
+
+
+

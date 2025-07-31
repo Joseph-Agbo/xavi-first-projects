@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
 h3{
             /* color:brown;
             font-size: 50px; */
@@ -489,6 +491,23 @@ h3{
         .joecol, th, td{
             border: 1px solid white;
             border-collapse: collapse;
+        }
+        .defolimage img{
+            width: 300px;
+            height: 210px;
+            filter: sepia(20%) hue-rotate(180deg);
+        }
+        .defolimage img:hover{
+            transform: scale(1.1);
+            transition: transform 0.4s ease;
+        }
+        .defolimage p{
+          font-family: 'Inter';
+          font-size: 30px;
+          font-weight: bolder;
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
        
         
