@@ -390,6 +390,64 @@ console.log(fizzcanter);
 console.log(buzzcanter);
 console.log(icanter);
 
+// do/while Loop
+let q = 0
+let qcanter = 0
+
+do {
+    console.log(`the number is ${q}`);
+    qcanter++;
+} while (q >= 10);
+
+// Functions
+function findcir(radius) {
+    let pi = 3.142
+
+    let circumference = 2 * pi * radius
+    return circumference
+}
+console.log(findcir(3));
+
+function add(a, b) {
+    return a + b
+}
+console.log(add(2,5));
+
+function square(n) {
+    return n * n
+}
+console.log(square(100));
+
+function odd(number) {
+    return number % 2 === 1
+}
+console.log(odd(3));
+console.log(odd(2));
+
+function faren(centigrade) {
+    return centigrade * 1.8 + 32
+}
+console.log(faren(100));
+
+function biggernum(i, j, k) {
+    if (i >= j && i >= k) {
+        return i
+        
+    }else if (j >= i && j >= k) {
+        return j
+        
+    }else return k
+    
+}
+console.log(biggernum(60,88,5));
+
+function callgoodperson(name) {
+    console.log(`${name} is a good person`);
+    
+}
+callgoodperson("Joseph");
+
+
 
 
 

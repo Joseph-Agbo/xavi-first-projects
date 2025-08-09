@@ -126,7 +126,49 @@ for (let i = 1; i <= rows; i++) {
     
 }
 
-// While Loop
+// function
+function myreversedString(string) {
+    let reversedString = ""
+
+    for (let i = string.length - 1; i >= 0; i--) {
+        reversedString = reversedString + string[i]
+        
+    }
+    return reversedString;
+}
+console.log(myreversedString("joseph"));
+
+// palindrome
+function isPalindrome(word) {
+    let theReversed = ""
+
+    for (let i = word.length - 1; i >= 0; i--) {
+        theReversed += word[i];
+        
+    }if (word === theReversed) {
+        return (`${word} is a palindrome`)
+    }else {
+        return (`${word} is not a palindrome`)
+    }
+}
+console.log(isPalindrome(`level`));
+
+// sort an array
+let arr = [5, 2, 9, 1, 5, 6]
+
+for (let i = 0; i < arr.length - 1; i++){
+for (let j = 0; j < arr.length - 1 - i; j++){
+if (arr[j] > arr[j + 1]){ 
+    // swap arr[j] and arr[j + 1]
+ let temp = arr[j];
+arr[j] = arr[j + 1];
+arr[j + 1] = temp;
+}
+}
+}
+console.log(arr); // output: [1, 2, 5, 5, 6, 9,]
+
+
 
 
 
