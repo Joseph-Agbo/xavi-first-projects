@@ -168,6 +168,102 @@ arr[j + 1] = temp;
 }
 console.log(arr); // output: [1, 2, 5, 5, 6, 9,]
 
+// stringMethods
+function capitalizethisWords(sentence) {
+    let result = ""
+    let capitalizeFirst = true;
+
+    for (let i = 0; i < sentence.length; i++) {
+        let char = sentence[i]
+        let code = char.charCodeAt(0)
+
+        if (capitalizeFirst && code >= 97 && code <= 122) {
+            char = String.fromCharCode(code - 32)
+            capitalizeFirst = false;
+        }else {
+            capitalizeFirst = (char === " ");
+        }
+
+        result += char; 
+    }
+
+    return result;
+}
+console.log(capitalizethisWords("xavimoney loves playing football"));
+
+function isPalindrome(word) {
+    let start = 0
+    let end = word.length - 1
+
+    while (start < end) {
+        if (word[start] !== word[end]) {
+            return "isnotaPalindrome";
+        }
+        start++;
+        end--;
+    }
+    return "A Palindrome";
+}
+console.log(isPalindrome("civic"));
+console.log(isPalindrome("catfish"));
+
+function hideEmail(email) {
+    let atindex = 0
+    let result = ""
+
+    for (let i = 0; i < email.length; i++) {
+        if (email[i] === "@") {
+            atindex = i;
+            break;
+        }
+        
+    }
+
+    for (let i = 0; i < email.length; i++) {
+        if (i < atindex) {
+            if (i < 2 || i === atindex - 1) {
+                result += email[i];
+            }else {
+                result += "#";
+            }
+        }else {
+                result += email[i]
+            }
+        
+    }
+    return result;
+}
+console.log(hideEmail("xavimoney@yahoo.com"));
+
+function countVowels(string) {
+    let vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
+    let vowelCount = 0
+
+    for (let i = 0; i < string.length; i++) {
+        let character = string[i]
+
+        for (let j = 0; j < vowels.length; j++) {
+            if (character === vowels[j]) {
+                vowelCount++;
+                break;
+            }
+            
+        }
+    }
+    return vowelCount;
+}
+console.log(countVowels("Photosynthesis"));
+
+function reverseString(string) {
+    let reversed = ""
+
+    for (let i = string.length - 1; i >= 0; i--) {
+        reversed += string[i];
+        
+    }
+    return reversed;
+}
+console.log(reverseString("Macintosh"));
 
 
 

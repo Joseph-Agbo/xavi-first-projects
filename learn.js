@@ -189,6 +189,64 @@ for (let i = checknumbers.length - 1; i >= 0; i--) {
 }
 console.log(reversearray);
 
+// Sort an array from biggest to smallest
+let numbig = [80, 4, 66, 1, 100, 120]
+
+for (let i = 0; i < numbig.length - 1; i++) {
+    for (let j = 0; j < numbig.length - i -1; j++) {
+        if (numbig[j] < numbig[j + 1]) {
+            
+            let temp = numbig[j]
+            numbig[j] = numbig[j + 1]
+            numbig[j + 1] = temp
+        }
+        
+    }
+    
+} console.log(numbig);
+
+// string methods Extracting String characters
+let myText = "Hello World"
+let chart = myText.charAt(4)
+console.log(chart);
+
+let theText = "HELLO WORLD"
+let char = theText.charCodeAt(4)
+console.log(char);
+
+let letter = "W3Schools"
+let print = letter.at(4)
+console.log(print);
+
+let letTer = "Hello World"
+let priNt = letTer[4]
+console.log(priNt);
+
+let text1 = "Hello"
+let text2 = "World"
+let text3 = text1.concat(` ${text2}`)
+console.log(text3);
+
+// Extracting string parts
+let texT = "Apple, Banana, Kiwi"
+let sliced = texT.slice(7,13)
+console.log(sliced);
+
+// Converting to uppercase and lowercase
+let words = "hello world"
+let myWord = words.toUpperCase()
+console.log(myWord);
+
+// isWellFormed & trim()
+let mywords = "Hello Bastard \uD900P"
+let result = mywords.isWellFormed()
+console.log(result);
+
+let text4 = "     Hello World    "
+let text5 = text4.trim()
+console.log(text5);
+
+
 
 
 
